@@ -1,16 +1,37 @@
-#  Estudos - React (Santander 2026 - AI Front-end)
+# Estudos - React (Santander 2026 - AI Front-end)
 
-Repositório dedicado aos estudos e exercícios do curso **Santander 2026 - AI React Front-end**, oferecido pela [DIO](https://www.dio.me/).
+Este repositório reúne os exercícios, projetos e anotações desenvolvidos 
+durante o curso **Santander 2026 - AI React Front-end**, oferecido pela 
+[DIO](https://www.dio.me/) em parceria com o Santander.
 
-##  Objetivo
-Documentar meu aprendizado prático em React, incluindo componentes, hooks, 
-gerenciamento de estado e integração com APIs.
+O objetivo é praticar e documentar meu aprendizado em React, desde os 
+conceitos fundamentais até integração com IA e boas práticas de front-end.
 
-##  Tecnologias
-React · Vite · JavaScript (ES6+) , TypeScript
+## Tecnologias
+React · Vite · JavaScript (ES6+) · TypeScript
 
-##  Estrutura
-...
+## Conteúdos abordados
+
+- Fundamentos de React (componentes, JSX, props)
+- Hooks (useState, useEffect, useContext...)
+- Gerenciamento de estado
+- Consumo de APIs
+- Boas práticas e estrutura de projetos
+- Integração de IA em aplicações front-end
+
+## ▶️ Como executar
+
+```bash
+git clone https://github.com/isabellyfranklin/estudos-react.git
+cd estudos-react/modulo-x
+npm install
+npm run dev
+```
+
+## 🎓 Certificado
+
+[📄 Ver certificado](link-aqui)
 
 ## 📌 Status
- Em andamento
+
+🚧 Em andamento — atualizações conforme avanço nos módulos
