@@ -1,0 +1,16 @@
+#root{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.imagem{
+  width: 500px;
+  height: 400px;
+}
+
+.list{
+  text-align: left;
+  color: black;
+}
