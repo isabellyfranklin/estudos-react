@@ -1,0 +1,22 @@
+.button{
+    width: 100px;
+    height: 50px;
+    background-color: #64cf;
+    border: none;
+    border-radius: 10px;
+    color: gainsboro;
+    margin: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark-theme{
+    background-color: #242424;
+    color: gray;
+}
+
+.light-theme{
+    background-color: white;
+    color: #242424;
+}

@@ -1,0 +1,17 @@
+.post{
+    background-color: white;
+    border-radius: 8px;
+    width: 300px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.post img{
+    height: 300px;
+    object-fit: cover;
+}
+
+.post, .post img{
+    width: 300px;
+    border-radius: 8px;
+}
