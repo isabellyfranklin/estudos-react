@@ -15,3 +15,16 @@
     width: 300px;
     border-radius: 8px;
 }
+
+.button{
+    width: 100px;
+    height: 50px;
+    background-color: #64cf;
+    border: none;
+    border-radius: 10px;
+    color: gainsboro;
+    margin: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

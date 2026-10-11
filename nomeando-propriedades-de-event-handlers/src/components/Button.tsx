@@ -6,7 +6,13 @@ interface Props {
 
 export function Button({ children, onClick }: PropsWithChildren<Props>) {
     return (
-        <button className="button" onClick={onClick}>
+        <button className="button" onClick={(e)=> {
+            e.stopPropagation();
+            if(onClick){
+              onClick(e);      
+            }
+            }}
+            >
             {">"}{children}{"<"}
         </button>
     );

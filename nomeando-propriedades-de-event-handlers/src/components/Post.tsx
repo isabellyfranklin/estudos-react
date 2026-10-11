@@ -11,7 +11,7 @@ interface Props{
 export function Post({ imagemSource,alternative,user,text,onLikePost }: Props ){
 
     return(
-        <div className="post">
+        <div className="post" onClick={()=> alert("voce clicou no componentes POST")}>
            <img src={imagemSource} alt={alternative}/>
            <p>
                 <b>@{user}: </b>
