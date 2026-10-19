@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import ProductItem from "../ProducItem";
 
 export default function ProductsList() {
   //link da nossa api
@@ -8,7 +9,7 @@ export default function ProductsList() {
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
-    setIsLoading(true);
+    // setIsLoading(true);
     fetch(`${API_BASE_URL}/products`)
       .then(async (response) => {
         if (!response.ok) {
@@ -38,12 +39,8 @@ export default function ProductsList() {
     <div>
       <h2>Products</h2>
       <ul className="list">
-        {product.map(( {id, product, price,description} ) => (
-          <li key={id}>
-            <p>#{product} Nome do produto</p>
-            <p className="price">{price}</p>
-            <p>{description}</p>
-          </li>
+        {product.map(( item) => (
+          <ProductItem key={item.id} product={item}/>
         ))}
       </ul>
     </div>
